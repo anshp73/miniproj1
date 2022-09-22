@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<Html> 
+<head> 
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                clifford: '#da373d',
+              }
+            }
+          },
+          plugins: [
+    require('@tailwindcss/forms'),
+    // ...
+  ],
+        }
+      </script>
+<title> 
+Registration Page 
+ </title > 
+ <style type=text/css>
+    p {
+        background-color: rgb(51, 26, 26);
+        margin: 10px;
+    }
+     
+    div {
+        color: rgb(30, 130, 197);
+        background-color: 009900;
+        margin: 2px;
+        font-size: 20px;
+    }
+     
+    body {
+        text-align: center;
+    }
+</style>
+</head > 
+<body  class="bg-slate-900 flex justify-center" > 
+<br > 
+<br > 
+<form > 
+ <h3><p align = "center" class="text-2xl font-bold text-white font-mono ">
+    Registration form for your company</p></h3><br>
+
+
+
+ <div align = "justify">
+<label > Company name: </label > 
+<input type = "text" name = "firstname" size = "15"  ><br > <br > 
+</div>
+
+<div align = "justify">
+<label > Total number of employees </label > 
+<input type = "text" name = "lastname" size = "15" / ><br > <br >
+</div>
+
+<div align = "justify">
+ <label > Key partner	</label > 
+<input type = "text" name = "lastname" size = "15" / ><br > <br >
+</div>
+
+<div align = "justify">
+<label > Type of company </label > 
+<select > 
+<option value = "company based" > company based on </option > 
+<option value = "product based" > product based </option > 
+<option value = "service based" >service based</option > 
+</select > 
+<br > 
+</div> 
+<br > 
+ 
+<label >
+<div align = "justify">Company contact no.: 
+</label > 
+<input type = "text" name = "country code" value = "+91" size = "2" / >
+<input type = "text" name = "phone" size = "10" / ><br > <br > 
+</div>
+
+<div align = "justify">Main Company Headquarters
+    <br > 
+   <textarea cols = "60" rows = "5" value = "address" > 
+   </textarea > 
+   <br > <br > 
+</div>
+
+<div align = "justify">Professional Email: 
+<input type="email" class="form-input px-2 py-1 <i class="fa fa-square-o" aria-hidden="true"></i><br>
+<br > </div>
+
+<div align = "justify">Password: 
+    <input type = "Password" class="form-input px-2 py-1 <i class="fa fa-square-o" aria-hidden="true"></i><br> 
+</div><br>
+
+<div align = "justify">Confirm Password: 
+    <input type = "Password" class="form-input px-2 py-1 <i class="fa fa-square-o" aria-hidden="true"></i><br > 
+    <br > 
+</div>
+
+<div align="center">
+    <button> submit </button>
+</div>
+
+</form > 
+</body > 
+</html > 
